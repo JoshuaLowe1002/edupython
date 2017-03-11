@@ -42,7 +42,7 @@ setup(
     keywords='edupython camjam edukit python gpio education',
     packages=find_packages(),
     classifiers=classifiers,
-    install_requires=['gpiozero', 'guizero'],
+    install_requires=['gpiozero'],
     package_data={
         'edupy': ['*.gif']
     },
