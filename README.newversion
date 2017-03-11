@@ -1,0 +1,18 @@
+If you go up a version:
+
+- change version number in make_deb
+
+- add new version to debian-jessie/changelog using exactly the same format.
+    Newest version at the top.
+    If in doubt, look at example in
+      https://sourceforge.net/p/raspberry-gpio-python/code/ci/default/tree/debian_jessie/changelog
+
+- change version number in setup.py
+
+- Make sure it is all in github
+
+- Add to pypi using:
+  $ python3 setup.py sdist upload
+
+- Create debian package using:
+  $ ./make_deb

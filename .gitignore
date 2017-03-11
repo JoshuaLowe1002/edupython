@@ -23,6 +23,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+deb_dist/
 
 # Installer logs
 pip-log.txt

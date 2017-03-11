@@ -1,0 +1,20 @@
+Source: edupython
+Maintainer: All About Code <support@edupython.co.uk>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 7)
+Standards-Version: 3.9.6
+Homepage: https://github.com/AllAboutCode/EduPython
+
+Package: python3-edupython
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-gpiozero, python3-guizero
+Description: A Python Library For The EduPython Kits
+ ﻿EduPython is meant for the CamJam EduKit's only and not for day to day usage
+ of normal motors. With other GPIO libraries that work with the kits you still
+ have to tell it where the motors or LED's are connected to but the CamJam
+ resources stick to certain GPIO Pins so there is no need to 'Call' the GPIO
+ pin numbers for the purpose of the CamJam kit's. EduPython will continue be
+ maintained for the forseeable future. The purpose of this is to create a module 
+ that school children could use in a short space of time and something that is
+ not confusing and the language is self explanatory.
