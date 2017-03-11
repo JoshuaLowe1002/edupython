@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+edupython/__init__.py
+edupython.egg-info/PKG-INFO
+edupython.egg-info/SOURCES.txt
+edupython.egg-info/dependency_links.txt
+edupython.egg-info/requires.txt
+edupython.egg-info/top_level.txt

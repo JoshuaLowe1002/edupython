@@ -1,0 +1,37 @@
+1.0.0 (09/04/2016)
+==================
+- First release
+
+1.0.1 (11/04/2016)
+==================
+- BETA
+
+1.1.0 (2/05/2016)
+==================
+- Added images to source file.
+- Added SEN GUI function.
+- Installs EasyGUI at setup.
+- Added Traffic Light function.
+- Still BETA version.
+
+1.1.1 (4/05/2016)
+==================
+- Re-Wrote setup.py
+- Fixed not installing images for sen_gui()
+
+1.1.2 (8/05/2016)
+==================
+- Fixed not finding images on some devices
+- Added full path to image variables in sen_gui()
+
+1.1.3 (9/05/2016)
+==================
+- Replaced wrong __init__.py file in source on last update.
+
+1.1.4 (17/05/2016)
+==================
+- Bug fixes to setup.py
+
+
+
+

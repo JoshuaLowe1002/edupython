@@ -1,0 +1,66 @@
+Metadata-Version: 1.1
+Name: edupython
+Version: 0.0.2
+Summary: A Python Library For The EduPython Kits
+Home-page: https://github.com/AllAboutCode/EduPython
+Author: All About Code
+Author-email: support@edupython.co.uk
+License: MIT
+Description: ﻿EduPython is meant for the CamJam EduKit's only and not for day to day usage
+        of normal motors. With other GPIO libraries that work with the kits you still
+        have to tell it where the motors or LED's are connected to but the CamJam
+        resources stick to certain GPIO Pins so there is no need to 'Call' the GPIO
+        pin numbers for the purpose of the CamJam kit's. EduPython will continue be
+        maintained for the forseeable future. The purpose of this is to create a module 
+        that school children could use in a short space of time and something that is
+        not confusing and the language is self explanatory.
+        
+        
+        
+        
+        1.0.0 (09/04/2016)
+        ==================
+        - First release
+        
+        1.0.1 (11/04/2016)
+        ==================
+        - BETA
+        
+        1.1.0 (2/05/2016)
+        ==================
+        - Added images to source file.
+        - Added SEN GUI function.
+        - Installs EasyGUI at setup.
+        - Added Traffic Light function.
+        - Still BETA version.
+        
+        1.1.1 (4/05/2016)
+        ==================
+        - Re-Wrote setup.py
+        - Fixed not installing images for sen_gui()
+        
+        1.1.2 (8/05/2016)
+        ==================
+        - Fixed not finding images on some devices
+        - Added full path to image variables in sen_gui()
+        
+        1.1.3 (9/05/2016)
+        ==================
+        - Replaced wrong __init__.py file in source on last update.
+        
+        1.1.4 (17/05/2016)
+        ==================
+        - Bug fixes to setup.py
+        
+        
+        
+        
+        
+Keywords: edupython camjam edukit python gpio education
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
